@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 fig, ax = plt.subplots(num=None, figsize=(8, 8), dpi=80, facecolor='#212946', edgecolor='k')
 
 RADIUS = 1 # Don't change
-AMOUNT = 1000 # Points
+AMOUNT = 10000 # Points
 
 x = np.linspace(-1,1, AMOUNT)
 y = np.linspace(-1,1, AMOUNT)
